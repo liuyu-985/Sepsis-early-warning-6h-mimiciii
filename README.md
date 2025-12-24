@@ -31,7 +31,7 @@ This project uses **MIMIC-III (v1.4)** (critical care EHR dataset). Access requi
 ## Methods
 
 ### 1) Feature / cohort extraction (SQL)
-- `data_preprocessing/Data_preprocessing.sql`
+- `Data_preprocessing.sql`
 - Extracts/constructs the cohort and structured features used for modeling (6-hour prediction horizon setup).
 
 ### 2) Baseline models (classic ML)
@@ -98,7 +98,7 @@ Below are the summary results used in the presentation.
 
 2) **Run SQL to create cohort/features**
 - Use `Data_preprocessing.sql`
-- Export resulting tables to your local files or connect notebooks directly to the database (depending on your setup).
+- Export resulting tables to your local files or connect notebooks directly to the database (depending on the setup).
 
 1) **Run baseline notebook**
 - `baseline_model.ipynb`
