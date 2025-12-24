@@ -35,7 +35,7 @@ This project uses **MIMIC-III (v1.4)** (critical care EHR dataset). Access requi
 - Extracts/constructs the cohort and structured features used for modeling (6-hour prediction horizon setup).
 
 ### 2) Baseline models (classic ML)
-Notebook: `baseline_model.ipynb`
+Notebook: `Baseline_model.ipynb`
 
 Models:
 - **CatBoost (Tabular features)**
@@ -43,7 +43,7 @@ Models:
 - **Logistic fusion (CatBoost + TF-IDF)**
 
 ### 3) Deep learning text model + fusion
-Notebook: `deep_learning_model.ipynb`
+Notebook: `Deep_learning_model.ipynb`
 
 Models:
 - **ClinicalBERT (Notes)**
@@ -101,11 +101,11 @@ Below are the summary results used in the presentation.
 - Export resulting tables to your local files or connect notebooks directly to the database (depending on the setup).
 
 1) **Run baseline notebook**
-- `baseline_model.ipynb`
+- `Baseline_model.ipynb`
 - Trains CatBoost + TF-IDF Logistic + logistic fusion and computes metrics.
 
 1) **Run deep learning notebook**
-- `deep_learning_model.ipynb`
+- `Deep_learning_model.ipynb`
 - Trains ClinicalBERT + fusion MLP and computes metrics.
 
 ---
